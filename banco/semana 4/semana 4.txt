@@ -1,0 +1,97 @@
+Normalização
+
+1ª Tabela: Clientes
+
+Guarda apenas informações do cliente.
+
+ClienteID
+
+NomeCliente
+
+501
+
+Carlos Pereira
+
+502
+
+Ana Lima
+
+2ª Tabela: Carros
+
+Informações dos carros.
+
+CarroID
+
+ModeloCarro
+
+Categoria
+
+ValorDiaria
+
+101
+
+Toyota Corolla
+
+Sedan
+
+200
+
+102
+
+Honda Civic
+
+Sedan
+
+220
+
+103
+
+Ford Fiesta
+
+Hatch
+
+180
+
+3ª Tabela: Aluguéis
+
+Relaciona cliente e carro.
+
+AluguelID
+
+DataAluguel
+
+ClienteID
+
+CarroID
+
+DiasAluguel
+
+1
+
+10/08/2024
+
+501
+
+101
+
+3
+
+2
+
+12/08/2024
+
+502
+
+102
+
+2
+
+3
+
+14/08/2024
+
+501
+
+103
+
+5
