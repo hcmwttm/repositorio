@@ -1,0 +1,28 @@
+grupo: 
+
+Henrique
+
+Iris
+
+Vinicius
+
+material 1 slide 18 - 19
+
+ele explorar essa feramente a favor de minimizar o tempo de trabalho pode gerar oportunidades para ele, a empresa vendo sua grande eficiência na produção pode aumentar suas chances de permanecer na empresa.
+ele pode reinventar um logo, uma escrita ou ate um significado apenas usando as ferramentas da inteligencia artificial, e propor novas perspectivas de um logo para o cliente.
+na minha opinião, abraçar as ferramentas que facilita nosso serviço é um novo método de ampliar a produção que os humanos podem fazer, exemplo, um funcionario que produzia 200 agora pode produzir até 1000 com facilidade.
+na atividade de registro, eu e meu grupo se separamos em um integrante sendo a ia e os outros sendo os dados para ficar mais pratico.
+
+meu grupo começou a descrever passaro em prompts diferentes que descreviam partes diferentes de um passaro. fizemos 1 teste descrevendo parcialmente o objetivo, a IA entendeu de primeira fazendo uma imagem muito boa em relação ao comando mandado:
+
+os 4 primeiros textos:
+
+tem que ter 2 asas
+
+tem que ter penas
+
+tem que ter um bico
+
+tem que ter 2 patas
+
+que gerou a imagem apresentada:

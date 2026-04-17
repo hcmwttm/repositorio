@@ -1,0 +1,40 @@
+Vocês acham que a criatividade humana surge "do nada", ou ela
+é baseada em tudo que já vimos, lemos e vivemos?
+
+   É baseada no que já vimos, lemos e vivemos
+
+Descrevam o processo mental para criar algo simples, como uma
+frase poética sobre o pôr do sol. Que conhecimentos vocês usam?
+
+   Pensamos nas cores, na sensação de calma e em lembranças. Usamos memória, imaginação, emoções e linguagem
+
+Quais benefícios e oportunidades da IA Generativa para a educação?
+
+   A IA pode ajudar muito no aprendizado, principalmente para alunos que têm dificuldade em algumas matérias. Ela explica conteúdos de forma simples, rápida e adaptada para cada pessoa. Também ajuda a tirar dúvidas a qualquer momento e pode melhorar o desempenho nos estudos. Além disso, pode ser usada como uma ferramenta de apoio para aprender melhor
+
+Quais riscos, desafios e dilemas éticos podem surgir com o uso dessa tecnologia?
+
+   Um dos maiores riscos é o plágio, quando o aluno usa a IA para fazer trabalhos sem realmente aprender. Também existe o problema da dependência, onde o estudante pode parar de pensar por conta própria. Outro desafio é que nem sempre a IA dá respostas totalmente corretas. Por isso, é importante saber usar com responsabilidade
+
+O que a sociedade pode fazer para usar a IA de forma ética e responsável?
+
+   As escolas devem ensinar os alunos a usar a IA como ferramenta de estudo, e não apenas para copiar respostas. As empresas precisam desenvolver tecnologias mais seguras e confiáveis. O governo também deve criar regras para garantir o uso correto da IA. Assim, a tecnologia pode ajudar na educação sem prejudicar o aprendizado
+
+Registro:
+Erick P.
+Henrique C.
+
+1. Diagnóstico médico (IA para pneumonia):
+Risco: erro no diagnóstico e podendo gerar problemas maior
+Causa: dados limitados ou imagem ruim e falso verdadeiro ou falso.
+Mitigação: validação médica + IA como Ferramenta
+
+2. Projeto de engenharia (suporte de motor):
+Risco: falha estrutural e queda de estruturas
+Causa: otimização sem considerar condições reais.
+Mitigação: testes físicos + revisão de engenheiros.
+
+3. Segurança (reconhecimento de voz em banco):
+Risco: fraude.
+Causa: imitação de voz ou falhas.
+Mitigação: autenticação multifator.

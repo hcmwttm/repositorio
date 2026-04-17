@@ -1,0 +1,21 @@
+Comparação de um bloco de notas em comparação a um sistema de para programar códigos:
+
+Bloco de notas:
+
+Texto puro, sem destaque de sintaxe. E não possui auto completar.
+
+Não diferencia palavras-chave, variáveis ou comentários.
+
+Visual simples, e meio vazio, como uma folha em branco.
+
+Poucos recursos para um programador (sem orientação direta de codigos errado e de pontuação).
+
+Sistema próprio para programar:
+
+Destaque de sintaxe por cores. E concerta palavras ou deixa elas marcadas para serem arrumadas.
+
+Identificação visual de funções, classes, variáveis e comentários, mostrando erros de pontuação e até esquecimentos de fechar códigos.
+
+Recursos como colapsar blocos de código, múltiplas abas e até mesmo integrar vários códigos.
+
+Da para mudar as letras e o cenário para melhorar a leitura e acessibilidade.

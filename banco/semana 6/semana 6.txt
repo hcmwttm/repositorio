@@ -1,0 +1,58 @@
+-- CRIAÇÃO DA TABELA DE SALAS
+-- Esta tabela armazena as salas disponíveis para reserva.
+CREATE TABLE Salas (
+    SalaID INT PRIMARY KEY,         -- Identificador único da sala
+    NomeSala VARCHAR(50)           -- Nome da sala
+);
+
+-- CRIAÇÃO DA TABELA DE RESERVAS
+-- Esta tabela registra as reservas feitas nas salas.
+CREATE TABLE Reservas (
+    ReservaID INT AUTO_INCREMENT PRIMARY KEY, -- ID único da reserva gerado automaticamente
+    SalaID INT,                               -- Sala reservada
+    DataReserva DATETIME,                     -- Data e hora da reserva
+    Usuario VARCHAR(100),                     -- Nome do usuário que reservou
+    FOREIGN KEY (SalaID) REFERENCES Salas(SalaID) -- Garante que a sala exista
+);
+
+-- INSERÇÃO DE DADOS INICIAIS
+-- Adiciona uma sala inicial no sistema.
+INSERT INTO Salas (SalaID, NomeSala) 
+VALUES (1, 'Sala A');
+
+-- CONFIGURAÇÃO DO NÍVEL DE ISOLAMENTO
+-- SERIALIZABLE é o nível mais alto de isolamento.
+-- Ele evita que duas transações reservem a mesma sala no mesmo horário.
+SET SESSION TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+
+-- INÍCIO DA TRANSAÇÃO
+BEGIN;
+
+-- INSERÇÃO SEGURA DE RESERVA
+-- Insere a reserva SOMENTE se ainda não existir
+-- outra reserva da mesma sala no mesmo horário.
+INSERT INTO Reservas (SalaID, DataReserva, Usuario)
+SELECT 1, '2024-08-21 10:00:00', 'Pedro'
+WHERE NOT EXISTS (
+    SELECT 1 
+    FROM Reservas
+    WHERE SalaID = 1 
+      AND DataReserva = '2024-08-21 10:00:00'
+);
+
+-- CONFIRMAÇÃO DA TRANSAÇÃO
+-- Salva definitivamente a reserva no banco.
+COMMIT;
+
+-- DESFAZER ALTERAÇÕES
+-- ATENÇÃO:
+-- Como o COMMIT já foi executado acima,
+-- este ROLLBACK não terá efeito.
+ROLLBACK;
+
+-- CONSULTA FINAL
+-- Exibe os dados de reservas e salas.
+-- OBS: essa consulta faz produto cartesiano.
+-- O ideal seria usar JOIN.
+SELECT * 
+FROM Reservas, Salas;

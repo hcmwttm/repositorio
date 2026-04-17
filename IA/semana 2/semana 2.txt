@@ -1,0 +1,30 @@
+1- como a curiosidade pode ajudar Marina a educar o CEO?
+A curiosidade pode ajudar a marina a pesquisar muito mais como funcionam os modelos como o gpt4, entendendo tanto suas capacidades e seus conhecimento, ela pode explicar ao ceo, de forma clara e baseada em fatos, que a ia, consegue simular linguagens emocionais mas não possui sentimentos reais, alem  disso ao ouvir a visão do CEO com curiosidade, ela pode compreender melhor seus objetivos e propor soluções viáveis que atendam às expectativa                                                                    2. Por que persistir em explicar as limitações reais?
+Persistir é importante para evitar expectativas nao realista, frustrações futuras e possíveis problemas, se a empresa prometer algo que a tecnologia ainda não pode oferecer, pode perder a visibilidade, explicar as limitações ajuda a alinhar visão e realidade, tendo mais decisões e responsáveis e sustentáveis.                                      3. Como a cooperação da equipe pode criar uma solução satisfatória?
+A cooperação permite unir inovação e ética. Enquanto alguns membros podem focar em tornar o chatbot mais natural e empático na comunicação, outros podem garantir transparência sobre o funcionamento da ia, trabalhando juntos, é possível desenvolver um assistente eficiente na linguagem, mas honesto quanto à sua artificial.                                                                                                                              4. É ético simular emoções que a IA não tem?
+Depende da forma como isso é usado, usar uma linguagem empática para melhorar a experiência do usuário pode ser mais responsavel  desde que fique claro que se trata de uma ia, porém, fingir que a tecnologia realmente sente emoções ou vínculos emocionais enganosos pode ser antiético, a sinceridade é fundamental para manter a confiança do público.
+
+Lado bom
+Pode agilizar as contratações, avaliar todo mundo com o mesmo critério, identificar comportamentos problemáticos nas redes sociais e aliviar o trabalho do RH. Mas isso só funciona se os dados utilizados forem realmente confiáveis.
+
+Os problemas e a questão ética
+A situação é delicada:
+
+Ciência duvidosa: Julgar o caráter de alguém apenas por uma foto não tem base confiável.
+
+Preconceito: A IA pode acabar reproduzindo racismo, machismo ou outros vieses presentes nos dados com que foi treinada, prejudicando minorias.
+
+Privacidade: Analisar fotos ou dados pessoais sem consentimento pode violar a lei, como a LGPD.
+
+Estigma permanente: Se a IA classificar alguém como “não confiável”, isso pode prejudicar a pessoa de forma duradoura.
+
+Falta de transparência: Muitas vezes não é possível entender como a IA chegou a determinada conclusão, o que dificulta a defesa do candidato.
+
+Quem pode ser mais prejudicado
+Jovens em busca do primeiro emprego, minorias, pessoas com menos acesso ou conhecimento digital e até as próprias empresas, que podem enfrentar processos judiciais.
+
+Um precedente perigoso:
+Se esse tipo de prática se tornar comum, pode abrir espaço para que escolas, bancos ou planos de saúde passem a tomar decisões com base apenas na imagem de alguém. Isso criaria uma espécie de “pontuação social” invisível.
+
+Como fazer da forma correta
+Para evitar problemas, o ideal é: pedir consentimento claro, usar a IA apenas para analisar informações profissionais (e não aparência), garantir supervisão humana no processo, permitir que o candidato questione decisões e focar nas competências reais da pessoa.
