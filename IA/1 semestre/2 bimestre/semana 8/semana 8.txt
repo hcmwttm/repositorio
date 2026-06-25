@@ -1,0 +1,43 @@
+parte 1
+Usando a analogia da aula, explique com suas palavras a diferença entre o processo direto e o processo inverso.
+
+Processo direto: um construtor de castelos de areia que tem seus castelos derrubados pelas rajadas de vento (construtor é a IA, o castelo é a imagem e as rajadas são os ruidos que aparecem).
+Processo inverso: um construtor de castelos de areia que refaz os castelos baseados em como as rajadas de vento o desfizeram.
+
+Qual é a única tarefa que a IA precisa realizar em cada passo do processo inverso para conseguir reconstruir uma imagem?
+
+Em cada passo a única tarefa da IA é prever qual foi o ruído adicionado naquela etapa e removê-lo da imagem.
+
+Por que o step scheduler é tão importante? O que aconteceria se o "plano" do escultor fosse ruim?
+
+O step scheduler é importante porque define a estratégia de como o ruído será removido ao longo do processo, se o plano for ruim a IA pode demorar mais para gerar a imagem ou até criar uma imagem de baixa qualidade, com erros ou sem muitos detalhes.
+
+parte 2
+hf
+
+1. O que é o beta schedule e qual seu papel?
+É a linha do gráfico: mostra como o ruído aumenta com o tempo. Aqui ele cresce aos poucos controlando quando a imagem vai se corroendo.
+
+2. Diferença:
+Esse gráfico é linear
+
+Linear: aumento constante 
+
+Cosseno: começaria mais curvado, com crescimento lento no início
+
+3. Por que isso é importante?
+Porque o formato da curva define como a IA aprende.
+Nesse caso o ruído cresce de forma uniforme, mas pode não mantem tanto os detalhes no começo.
+
+parte 3
+
+
+1. Qual é a principal função da rede UNet no processo de difusão?
+A UNet preve o ruído da imagem em cada etapa. Recebe a imagem com ruido e indica o que deve ser removido.
+
+2. Explique a relação entre a UNet e o denoiser. Um poderia existir sem o outro nesse contexto?
+A UNet preve o ruído, denoiser remove o ruído, trabalhando juntos no mesmo ciclo. Um não funciona sem o outro no processo.
+
+3. Se você quisesse gerar uma imagem muito criativa e artística você usaria guidance scale alto ou baixo? Por quê?
+Usaria guidance scale baixo, ele permite mais liberdade. O resultado fica mais criativo e menos preso ao oq foi pedido.
+

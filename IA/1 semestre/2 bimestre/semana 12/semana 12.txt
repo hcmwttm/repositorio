@@ -1,0 +1,11 @@
+Questão 1 – Persistência
+
+tivemos dificuldade para fazer o HPA reconhecer o uso da CPU e conferimos também as configurações e corrigimos os erros até tudo funcionar
+
+Questão 2 –cooperação 
+
+o pessoal de desenvolvimento cuidou da aplicação e dos containers, o pessoal de infraestrutura cuidou do Kubernetes e do HPA, os dois precisam trabalhar juntos para o sistema funcionar
+
+Questão 3 – Trade-off
+
+se o maxReplicas for muito baixo a aplicação pode ficar lenta, se o minReplicas for muito alto, haverá gasto de recursos sem necessidade

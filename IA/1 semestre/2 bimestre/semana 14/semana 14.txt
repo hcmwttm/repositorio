@@ -1,0 +1,9 @@
+Nome completo, CPF e informação sobre exame médico.
+
+b) CPF, porque não é necessário para o atendimento e pode identificar o usuário.
+
+c) Não. O mascaramento reduz os riscos, mas não garante segurança total.
+
+o estudo de caso apresenta dados pessoais e sensíveis que podem comprometer a privacidade dos usuário como nome, cpf,e informaçoes pessoais de saude, esses dados precisam ser protegidos para evitar vazamento O PII Masking ele oculta informações pessoais, dificultando a identificação do usuário á a anonimização remove ou transforma os dados de forma que a pessoa não possa ser identificada, o logging seguro é importante porque registra eventos sem expor dados sensíveis, um log mal configurado pode causar vazamentos e acessos indevidos, essas práticas estão alinhadas à LGPD e ao GDPR, que exigem proteção dos dados pessoais, uso apenas das informações necessárias e adoção de medidas de segurança adequadas. Dessa forma, garantem mais privacidade, segurança e conformidade legal nos sistemas de inteligência artificial
+
+Tabela

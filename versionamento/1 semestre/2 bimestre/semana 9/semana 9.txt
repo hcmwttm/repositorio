@@ -1,0 +1,97 @@
+nome: Henrique Costa Monteiro
+serie: 3°B
+
+Situação 1:  a equipe quer que uma verificação seja executada automaticamente sempre que alguém enviar código para a branch main.
+
+Resposta: GitHub Actions
+
+
+1. Situação : a aplicação precisa guardar a senha do banco de dados sem deixar essa senha visível no código.
+Resposta: Secrets
+
+1. Situação :a nova versão do sistema apresentou erro grave e a equipe precisa voltar para a versão anterior.
+Resposta: Rollback
+
+1. Situação : a equipe quer liberar uma nova versão primeiro para apenas uma pequena parte dos usuários.
+Resposta: Canary Release
+
+
+1 Situação : O sistema precisa ser empacotado com suas bibliotecas e configurações para funcionar em outro ambiente.
+
+Resposta: Docker
+
+1. ⁠1. Situação :a empresa possui vários containers rodando e precisa controlar esses containers automaticamente.
+
+Resposta: Kubernetes
+
+
+7Situação : a equipe quer deixar um ambiente antigo funcionando e preparar a nova versão em outro ambiente separado.
+Resposta: Blue-Green Deployment
+
+
+1. Situação 8: Uma chave de API não pode aparecer nos logs, nos arquivos do projeto ou no repositório.
+
+Resposta: Secrets
+
+
+1. Situação 9: Antes de entregar uma nova versão para todos, a equipe quer observar se ela apresenta falhas em poucos usuários.
+
+Resposta: Canary Release
+
+
+1. Situação 10: O projeto precisa executar comandos automáticos como testar, verificar e preparar a entrega.
+
+Resposta: GitHub Actions
+
+Atividade B
+1. Qual é a principal diferença entre Canary Release e Blue-Green Deployment?
+
+Resposta: Canary Release libera a nova versão para poucos usuários primeiro. Já o Blue-Green Deployment utiliza dois ambientes separados para realizar a troca de versões com mais segurança.
+
+
+1. Em qual situação o rollback é importante?
+
+Resposta: O rollback é importante quando uma nova versão apresenta erros e a equipe precisa voltar rapidamente para a versão anterior.
+
+1. Por que secrets são importantes para a segurança de uma aplicação?
+
+Resposta: Porque protegem senhas, chaves e tokens, evitando que informações sensíveis fiquem expostas.
+
+1. Docker e Kubernetes fazem a mesma coisa? Explique de forma simples.
+
+Resposta: Não. Docker cria e empacota os containers, enquanto Kubernetes gerencia e controla vários containers em execução.
+
+1. GitHub Actions é uma ferramenta de automação. Cite uma tarefa que ela pode executar automaticamente.
+Resposta: Executar testes automáticos sempre que um novo código for enviado ao GitHub.
+
+Atividade C
+Organize as etapas abaixo colocando números de 1 a 5.
+
+(3) O GitHub Actions executa uma tarefa automática.
+
+(1) O desenvolvedor altera o código.
+
+(5) Se der problema, a equipe pode fazer rollback.
+
+(2) O código é enviado para o GitHub.
+
+(4) A nova versão pode ser preparada para entrega.
+
+Atividade D
+1. Qual estratégia pode ser usada para liberar a nova versão para poucos usuários?
+
+Resposta: Canary Release, pois permite testar a nova versão com uma pequena parte dos usuários antes da liberação para todos.
+
+1. Qual recurso deve ser usado para proteger a senha do banco de dados?
+
+Resposta: Secrets.
+
+1. Qual estratégia deve ser usada se a nova versão apresentar erro?
+
+Resposta: Rollback.
+
+1. Por que é melhor automatizar parte desse processo?
+
+Resposta: Porque reduz erros, economiza tempo e torna as entregas mais rápidas e seguras.
+
+resposta 6: A Entrega Contínua ajuda a equipe a realizar atualizações de forma rápida, segura e organizada, reduzindo erros e melhorando a qualidade do sistema.
