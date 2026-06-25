@@ -1,0 +1,4 @@
+se habilitarCupomDesconto == verdadeiro 
+    então mostrarCampo("Cupom de Desconto") 
+senão não mostrar nada 
+fimSe

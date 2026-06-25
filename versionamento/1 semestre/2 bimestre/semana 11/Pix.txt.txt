@@ -1,0 +1,4 @@
+se habilitarPagamentoPIX == verdadeiro 
+    então mostrarBotao("Pagar com PIX") 
+senão mostrarBotao("Pagar com Cartão") 
+fimSe

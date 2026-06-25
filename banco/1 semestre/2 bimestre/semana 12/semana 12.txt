@@ -1,0 +1,5 @@
+nesta atividade, utilizei os comandos DDL e DML para gerenciar uma tabela de funcionários primeiro eu criei a tabela funcionarios com o comando CREATE TABLE e depois, utilizei o ALTER TABLE para adicionar a coluna departamento 
+
+Em seguida, inseri alguns funcionários usando o comando INSERT. Também utilizei o UPDATE para atualizar o salário de uma funcionária e o DELETE para excluir um funcionário da tabela.
+
+Por fim, utilizei o comando SELECT para visualizar os dados cadastrados. Com isso, foi possível entender como os comandos DDL servem para criar e alterar tabelas, enquanto os comandos DML são usados para manipular os dados armazenados.

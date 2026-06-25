@@ -1,0 +1,154 @@
+. Situação-problema
+
+A empresa fictícia Tech Dynamics possui um sistema de vendas. Quando uma venda é registrada, duas
+
+coisas precisam acontecer juntas:
+
+A venda precisa ser inserida na tabela Vendas.
+
+O estoque do produto vendido precisa diminuir.
+
+O problema é: se a venda for cadastrada, mas o estoque não for atualizado, o banco de dados ficará
+
+inconsistente.
+
+Pergunta inicial para discussão
+
+O que aconteceria em uma loja se o sistema registrasse a venda, mas não diminuísse o estoque do
+
+produto? R- se a venda fosse registrada e o estoque nao diminuisse, a loja teria informacoes incorretas no sistemas, podendo prejudicar a loja como vender produtos que nao estaria mais disponível
+
+sim a venda apareceu na tabelas de vendas (o estoque de produtos diminuiu em 1 unidade)
+
+  
+
+9. Atividade prática para entregar
+
+Resolva as tarefas abaixo no MySQL Workbench. Ao final, registre as respostas no espaço indicado.
+
+Tarefa 1 — Venda confirmada
+
+1. Consulte o estoque do produto Mouse.
+
+2. Inicie uma transação.
+
+3. Insira uma venda do Mouse para um cliente.
+
+4. Atualize o estoque diminuindo 1 unidade. 
+
+5. Confirme com COMMIT.
+
+6. Mostre o SELECT final comprovando a venda e o novo estoque. R- SELECT * FROM Produtos WHERE nome_produto = 'Mouse';
+
+
+
+
+START TRANSACTION;
+
+
+
+
+INSERT INTO Vendas (id_cliente, id_produto, data_venda)
+
+VALUES (1, 2, '2024-09-05');
+
+
+
+
+UPDATE Produtos
+
+SET estoque = estoque - 1
+
+WHERE id_produto = 2;
+
+
+
+
+COMMIT;
+
+
+
+
+SELECT * FROM Vendas;
+
+
+
+
+SELECT * FROM Produtos WHERE id_produto = 2; a venda do mouse foi registrada na tabela de vendas e o estoque diminui uma unidade. 
+
+Tarefa 2 — Venda cancelada
+
+7. Inicie uma transação.
+
+8. Insira uma venda de qualquer produto.
+
+9. Antes de atualizar o estoque, simule uma falha.
+
+10. Use ROLLBACK.
+
+11. Mostre com SELECT que a venda não ficou salva. R- START TRANSACTION;
+
+
+
+
+INSERT INTO Vendas (id_cliente, id_produto, data_venda)
+
+VALUES (3, 3, '2024-09-05');
+
+
+
+
+ROLLBACK;
+
+
+
+
+SELECT * FROM Vendas; a venda nao ficou salva porque o rollback desfez a transiçao antes de confirmaçao do comiit 
+
+
+
+
+Tarefa 3 — Segurança no estoque
+
+12. Escolha um produto.
+
+13. Faça uma venda usando UPDATE com a condição estoque &gt; 0.
+
+14. Explique por que essa condição é importante. R- START TRANSACTION;
+
+
+
+
+INSERT INTO Vendas (id_cliente, id_produto, data_venda)
+
+VALUES (2, 4, '2024-09-05');
+
+
+
+
+UPDATE Produtos
+
+SET estoque = estoque - 1
+
+WHERE id_produto = 4 AND estoque > 0;
+
+
+
+
+COMMIT; a condicao do estoque menos 0 é importante porque evita que o estoque fiquei negativo e impede a venda de produtos que nao tem na loja
+
+
+
+
+Tarefa 4 — Reflexão sobre concorrência
+
+15. Explique, com suas palavras, por que duas pessoas vendendo o mesmo produto ao mesmo tempo R- duas pessoas vendendo o mesmo produto ao mesmo tempo podem causar problemas porque os dois podem alterar o estoque, varias vezes gerando tambem informaçoes incorretas e permitindo vendas que nao tem no estoque 16. O nível READ COMMITTED é melhor quando se deseja equilíbrio entre desempenho e segurança, permitindo que apenas dados já confirmados sejam lidos. R- o nivel read committed é melhor quando se deseja equilibrio entre o desempenho e seguranças permitindo que apenas dados ja confirmado sejam lidos 17 .O nível SERIALIZABLE é melhor quando a prioridade é máxima segurança e evitar conflitos entre transações realizadas ao mesmo tempo. R-o nivel de serializable é melhor quando a prioridade é maxima segurança e evita conflitos entre transaçoes realizadas ao mesmo tempo
+
+
+
+
+10. Questões rápidas de fixação
+
+1. Qual comando inicia uma transação no MySQL?
+
+ R-C - START transaction 2.Qual comando confirma definitivamente as alterações? R-A commit 3.Qual comando desfaz alterações ainda não confirmadas? r-C rollback 4-Qual é o nível de isolamento padrão do MySQL? R- repeatable read

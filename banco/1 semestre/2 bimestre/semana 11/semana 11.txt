@@ -1,0 +1,122 @@
+
+
+
+
+
+qual é o nome da tabela criada?
+resposta: produtos
+
+Qual coluna será preenchida automaticamente?
+    
+Resposta: id_produto
+
+Para que serve a coluna estoque?
+Resposta: para armazenar a quantidade de produtos em estoque.
+
+1. Quantos produtos foram inseridos?
+    Resposta: foram 5 produtos
+
+Qual produto possui preço de 120.00?
+    Resposta: mouse gamer 
+
+Qual produto possui estoque igual a 50?
+    Resposta: fone de Ouvido
+
+Os produtos apareceram corretamente?
+    Resposta: sim 
+
+A coluna id_produto foi preenchida automaticamente?
+  Resposta: sim 
+
+Qual foi o primeiro produto listado?
+    Resposta: foi o notebook 
+
+Quais produtos apareceram?
+    Resposta: notebook e Tablet
+
+Por que o Smartphone não apareceu nessa consulta?
+    Resposta: porque  o estoque dele é maior que 25.
+
+Qual é o produto mais caro?
+   Resposta: foi o notebook 
+
+Qual é o produto mais barato?
+    Resposta: é o mouse gamer 
+
+O resultado ficou parecido com um arquivo CSV?
+    Resposta: sim 
+
+Qual caractere está separando os campos?
+  Resposta: Vírgula 
+
+Copie uma linha CSV gerada:
+Resposta: notebook ,2500.00,15
+
+Qual foi a primeira linha exibida?
+    Resposta: nome_produto,preco,estoque
+
+Por que o cabeçalho é importante em um arquivo CSV?
+    Resposta: porque  mostra o nome das colunas.
+
+Copie um exemplo de XML gerado:
+Resposta:<produto><nome>Notebook</nome><preco>2500.00</preco><estoque>15</estoque></produto
+
+Qual tag guarda o preço do produto?
+    Resposta: <preco>
+
+Qual tag guarda o estoque do produto?
+Resposta: <estoque>
+
+Quais produtos apareceram?
+  Resposta: notebook , smartphone e o tablet 
+
+Por que o Mouse Gamer não apareceu?
+    Resposta: porque o preço dele é menor que 500.
+
+Quantos produtos existem agora na tabela?
+    Resposta: 7 produtos
+
+Quais foram os dois novos produtos inseridos?
+    Resposta: teclado mecânico  e monitor led 
+
+O id_produto continuou sendo preenchido automaticamente?
+  Resposta: sim 
+
+que significa importar dados?
+    Resposta: inserir informações no banco de dados.
+
+Como simulamos a importação no OneCompiler?
+    Resposta: Usando INSERT INTO.
+
+O que significa exportar dados?
+    Resposta: retirar dados do banco em outro formato.
+
+Como simulamos a exportação em CSV no OneCompiler?
+    Resposta: usando CONCAT.
+
+Qual comando usamos para consultar dados?
+    Resposta: select 
+
+Para que serve o comando WHERE?
+    Resposta: para filtrar dados.
+
+Para que serve o comando ORDER BY?
+    Resposta: para  ordenar os dados.
+
+Qual foi a maior dificuldade encontrada na prática?
+    Resposta: entender os comandos SQL.
+
+No OneCompiler, qual comando usamos para simular a importação dos produtos?
+    Resposta: B) INSERT INTO
+
+Qual comando usamos para consultar dados de uma tabela?
+    Resposta: C) SELEC
+
+Para que serve o comando WHERE?
+    Resposta: C) Filtrar registros.
+
+Para que serve o comando ORDER BY preco DESC?
+    Resposta: B) Ordenar os produtos do maior preço para o menor.
+
+No roteiro adaptado, o comando CONCAT foi usado para:
+ Resposta: C) Juntar textos e valores para simular CSV e XML.

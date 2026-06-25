@@ -1,0 +1,4 @@
+função renderizarTelaDePagamento() 
+    mostrarTitulo("Pagamento") 
+
+fimFunção

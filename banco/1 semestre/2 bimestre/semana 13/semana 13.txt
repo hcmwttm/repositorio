@@ -1,0 +1,28 @@
+1- Qual é a diferença entre DDL e DML? Dê um exemplo de cada?                                                R - o ddl ele cria ou altera a estrutura do banco de dados, ja o dml ele manipula os dados dentro das tabela
+
+1. porque uma chave primária é importante em uma tabela?
+R- porque identifica cada registro de uma forma unica evitando duplicidades e confusões entre os dados
+
+1. para que serve uma chave estrangeira?                                                                        R- a chave ela serve para ligar uma tabela a outra, criando relacionamentos entre os dados
+2 O que o JOIN permite fazer?
+R- permite juntar informações de tabelas relacionadas em uma única consulta
+
+
+1.quando usamos GROUP BY e HAVING?
+
+R- Usamos group BY para agrupar registros e HAVING para filtrar esses grupos após cálculos como contagem ou soma.
+
+6-Por que o NOT EXISTS ajuda a evitar dados duplicados?
+R-porque verifica se o registro já existe antes de inserir um novo, impedindo repetições
+
+7. O que uma trigger faz?
+R-uma trigger executa automaticamente uma ação quando ocorre um evento no banco de dados, como inserir, atualizar ou excluir registros
+
+8. Por que registrar auditoria de alterações pode ser importante?
+R-Porque permite acompanhar mudanças realizadas nos dados E aumentaa segurança e facilitando investigações de erros
+
+9. porque bloquear a exclusão de pedidos enviados é uma boa prática?
+R- porque os  pedidos enviados fazem parte do histórico da empresa e podem ser necessários para controle, rastreamento e auditoria
+
+10. Explique com suas palavras a analogia da trigger como alarme automático
+R- assim como um alarme dispara sozinho quando alguém abre uma porta, a trigger executa uma ação automaticamente quando acontece um evento no banco de dados, sem precisar de comando manual.
